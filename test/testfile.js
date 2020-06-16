@@ -8,7 +8,6 @@ test.describe('Mocha Selenium Tests', function() {
     this.timeout(60000);
     var driver;
     var googlePage;
-    var kibanaPage;
 
     test.before(function() {
         driver = new webdriver.Builder().withCapabilities(webdriver.Capabilities.chrome()).build();
