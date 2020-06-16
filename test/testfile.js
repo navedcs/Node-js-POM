@@ -15,7 +15,6 @@ test.describe('Mocha Selenium Tests', function() {
         driverWindow = driver.manage().window();
         //driver.get('https://webmail.qainfotech.com/');
         googlePage = new GooglePage(driver);
-        //kibanaPage = new KibanaPage(driver);
     });
 
     test.it('should Log in ', function() {
